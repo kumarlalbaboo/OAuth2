@@ -23,4 +23,11 @@ public class ApplicationController {
     public ResponseEntity<String> sayAbout() {
         return ResponseEntity.ok("About us: Spring Boot Oauth2 Application");
     }
+
+    @GetMapping("/hello")
+    public ResponseEntity<String> sayHello() {
+        return ResponseEntity.ok("Hello World");
+    }
+
+
 }
