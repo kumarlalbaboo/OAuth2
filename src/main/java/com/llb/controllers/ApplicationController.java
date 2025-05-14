@@ -27,5 +27,7 @@ public class ApplicationController {
     @GetMapping("/hello")
     public ResponseEntity<String> sayHello() {
         return ResponseEntity.ok("Say Hello World");
+        return ResponseEntity.ok("Hello World");
     }
+
 }
