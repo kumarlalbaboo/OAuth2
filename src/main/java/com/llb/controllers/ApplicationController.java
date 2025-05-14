@@ -18,4 +18,9 @@ public class ApplicationController {
     public ResponseEntity<String> sayContact() {
         return ResponseEntity.ok("Contact us: 7549662926");
     }
+
+    @GetMapping("/about-us")
+    public ResponseEntity<String> sayAbout() {
+        return ResponseEntity.ok("About us: Spring Boot Oauth2 Application");
+    }
 }
